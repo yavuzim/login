@@ -1,0 +1,101 @@
+*{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.6);
+}
+a{
+    color: black;
+    font-style: italic;
+}
+.icdiv i{
+    font-size: 42px;
+    color: white;
+    background-color: brown;
+    width: 20%; height: 48px; text-align: center; position: relative; top: -5px; padding-top: 4px;
+}
+.userdiv i{
+    font-size: 85px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    left: 25%;
+}
+.anadiv{
+    width: 45%;
+    height: 550px;
+    margin: 60px 0 0 25%;
+}
+.userdiv{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(103, 92, 197);
+    position: fixed;
+    top: 85px;
+    left: 42%;
+    border-radius:75px;
+    border-style: solid;
+    z-index: 1;
+}
+.icdiv{
+    width: 65%;
+    height: 330px;
+    border-radius: 25px;
+    border-style: solid;
+    background-color: blueviolet;
+    position: relative;
+    top:100px;
+    left: 17%;
+}
+.bir,.iki{
+    width: 15px;
+}
+.uc{
+    padding-top: 30px;
+}
+input{
+ border-style: solid;
+}
+.table{
+    width: 72%;
+    position: relative;
+    top: 108px;
+    left: 15%;
+}
+.textemail,.textpassword{
+    width: 75%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+    left: -5px;
+    border-style: none;
+    outline: 0;
+}
+.forgot{
+    position: relative;
+    left: 25%;
+}
+.forgot:hover{color: red;}
+button{
+    background-color: blueviolet;
+    width: 45%;    
+    height: 50px;
+    border-radius: 0 0 25px 25px;
+    position: relative;
+    top: 100px;
+    left: 28%;    
+    border-top: none;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    outline: 0;
+    font-size:x-large;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+
